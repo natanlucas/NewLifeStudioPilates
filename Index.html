@@ -24,24 +24,24 @@
 
     <header id="event-description">
         <div id="disclaimer">
-            <h2>NewLife</h2>
+            <h2>New Life</h2>
             <p class="about-event">
-                Um evento para revolucionar a sua criatividade
+                Dores musculares, reabilitação após Covid-19, melhora de postura, ernia de disco
             </p>
-            <p>Data do vento:</p>
-            <p class="event-date">Domingo, 28 de Maio, a apartir das 14h</p>
+            <p>Tenha qualidade de vida</p>
+            <p class="event-date">Pratique saúde, pratique PILATES</p>
         </div>
         <div id="subscription-form">
-            <p>Preencha o formulário para receber os detalhes do evento</p>
+            <p>Preencha o formulário para agendar uma aula grátis</p>
             <form>
                 <div class="form-group">
                     <label for="name">Nome</label>
                     <input type="text" name="name" placeholder="Digite seu nome">
                 </div>
-                <div class="form-group">
+                <!-- <div class="form-group">
                     <label for="email">Nome</label>
                     <input type="email" name="email" placeholder="Digite seu e-mail">
-                </div>
+                </div> -->
                 <div class="form-group">
                     <label for="phone">Telefone</label>
                     <input type="tel" name="phone" placeholder="Número do Whatsapp">
@@ -56,7 +56,7 @@
                         <option value="other">Outros</option>
                     </select>
                 </div>
-                <input type="submit" class="btn" value="Quero me inscrever">
+                <input type="submit" class="btn" value="Marcar aula grátis">
             </form>
         </div>
     </header>
@@ -152,6 +152,24 @@
         <p><span>E-mail:</span> contato@pilatesnewlife.com.br</p>
         <p><span>Telefone / WhatsApp:</span> (12) 99199-2336</p>
     </footer>
+
+    <!-- WhatsHelp.io widget -->
+    <script type="text/javascript">
+        (function () {
+            var options = {
+                whatsapp: "+5512991992336", // WhatsApp number
+                call_to_action: "Message us", // Call to action
+                button_color: "#FF6550", // Color of button
+                position: "right", // Position may be 'right' or 'left'
+                order: "whatsapp", // Order of buttons
+            };
+            var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+    <!-- /WhatsHelp.io widget -->
 
 </body>
 </html>
